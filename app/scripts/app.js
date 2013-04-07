@@ -1,13 +1,11 @@
 'use strict';
 
-angular.module('angularSume', [])
-  .config(function ($routeProvider) {
+angular.module('angularSume', ['resumeSvc'])
+    .config( function ($routeProvider) { 
     $routeProvider
-      .when('/', {
-        templateUrl: 'views/main.html',
-        controller: 'ResumeCtrl'
-      })
-      .otherwise({
-        redirectTo: '/'
-      });
+        .when('/', {
+            templateUrl: 'views/profile.html',
+            controller: 'ResumeCtrl'
+        })
+        .otherwise({ redirectTo: '/' });
   });
