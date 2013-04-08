@@ -7,5 +7,9 @@ angular.module('angularSume', ['resumeSvc', 'navDirective', 'userDirective'])
             templateUrl: 'views/profile.html',
             controller: 'ResumeCtrl'
         })
+        .when('/acheivements', {
+        	templateUrl: 'views/acheivements.html',
+        	controller: 'ResumeCtrl'
+        })
         .otherwise({ redirectTo: '/' });
   });

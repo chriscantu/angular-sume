@@ -1,11 +1,18 @@
 {
-    "name": "Chris  Cantu",
+    "name": "Chris Cantu",
     "email": "christopher.cantu@gmail.com",
     "github_username": "christophercantu",
     "profile_entries": [
-    	"13 years work experience in Information Technology, 4 years of supervisory experience",
-    	"Masters Degree in Information Systems / Bachelors Degree in Information Systems and International Business - Minor in Spanish",
-    	"Proven effective supervisor, team lead, and mentor via the implementation of multiple successful project",
-    	"Inspire creativity and encourage innovation in coworkers by maintaining open and productive working environment"
-    ]
+    		"13 years work experience in Information Technology, 4 years of supervisory experience",
+    		"Masters Degree in Information Systems / Bachelors Degree in Information Systems and International Business - Minor in Spanish",
+    		"Proven effective supervisor, team lead, and mentor via the implementation of multiple successful project",
+    		"Inspire creativity and encourage innovation in coworkers by maintaining open and productive working environment"
+    	],
+    "acheivements": [
+    		"Lead a team of 10 junior developers to successfully deploy team’s first enterprise application on time and within budget",
+    		"Nominated “Employee of the Year” at Baylor University in 2002. Received by only 5 % of employees",
+			"Lead software team in the complete design and development of a high traffic application on the http://irs.gov website.",
+	  		"Contributed to the EasyB project and recognized as a project member",
+	  		"Developed and presented a 1 hour Grails live coding demonstration for the San Antonio Java User Group with a colleague"
+    	]
 }
