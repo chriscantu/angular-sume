@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('angularSume', ['resumeSvc', 'navDirective'])
+angular.module('angularSume', ['resumeSvc', 'navDirective', 'userDirective'])
     .config( function ($routeProvider) { 
     $routeProvider
         .when('/', {
