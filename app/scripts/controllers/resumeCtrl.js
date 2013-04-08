@@ -1,8 +1,7 @@
 'use strict';
 
 function ResumeCtrl( $scope, Resume ) {
-	console.log( Resume );
-	$scope.resume = { "name": "Chris Cantu"};
+	$scope.resume = Resume.get();
 };
 
 ResumeCtrl.$inject = ['$scope', 'Resume'];
