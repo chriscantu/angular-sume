@@ -15,4 +15,33 @@
 	  		"Contributed to the EasyB project and recognized as a project member",
 	  		"Developed and presented a 1 hour Grails live coding demonstration for the San Antonio Java User Group with a colleague"
     	]
+    "jobs": [{ 
+    			"title": "Software Developer III",
+    			"company": "Rackspace Hosting",
+    			"location": "San Antonio, TX",
+    			"start_date": "12/2008",
+    			"end_date": "Present",
+    			"entries": [
+    					"Design, Develop, Test, Deploy, and Maintain Java, Groovy, Spring 2.5, J2EE, and Grails applications as a member of a team",
+    					"Research, Prototype, Present, and Implement new technological solutions and methodologies for team and leadership",
+    					"Integrate with various systems via Web Services (SOAP, XMLRPC & REST), Database Connections, and JMS Technologies",
+    					"Meet with other internal teams to develop requirements, design integrated components, and troubleshoot issues",
+    					"Mentor junior developers and facilitate on boarding of peer developers when joining the team or new project",
+    					"Facilitate the improvement of corporate culture and communication as a member of the Inclusion and Innovation Team"
+    				]
+    		},
+    		{
+    			"title": "Programmer Specialist",
+    			"company": "Accenture National Security Services",
+    			"location": "San Antonio, TX",
+    			"start_date": "8/2006",
+    			"end_date": "12/2008",
+    			"entries": [
+    					"Facilitated the planning of each of the project cycles by providing technical guidance and estimates for work",
+    					"Lead the design, coding, enhancing, and testing of J2EE / Java / Spring 2.0 - 2.5 software to meet business requirements",
+    					"Communicated with project managers team issues and barriers and facilitate their resolution",
+    					"Coached and mentored junior developers with technical and professional issues"
+    				]
+    		}
+    	]
 }
