@@ -4,7 +4,7 @@ Angular-Sume
 An interactive resume concept based on AngularJS
 
 ### Requirements:
-1. [Yeoman](https://yeoman.io) and [Grunt](http:/gruntjs.com) installed
+1. [Yeoman](http://yeoman.io) and [Grunt](http:/gruntjs.com) installed
 2. Run 'grunt server'
 
 ### Customization:
