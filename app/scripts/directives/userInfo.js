@@ -11,4 +11,14 @@ angular.module('userDirective', []).
 			}
 
 		}
+	}).
+	directive('rsDescriptions', function () {
+		return {
+			restrict: 'E',
+			replace: true,
+			scope: {
+				experiences: '='
+			},
+			templateUrl: 'directives/descriptions.html'
+		}
 	});
