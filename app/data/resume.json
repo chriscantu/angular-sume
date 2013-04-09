@@ -22,13 +22,13 @@
     			"start_date": "12/2008",
     			"end_date": "Present",
     			"descriptions": [
-    					"Design, Develop, Test, Deploy, and Maintain Java, Groovy, Spring 2.5, J2EE, and Grails applications as a member of a team",
-    					"Research, Prototype, Present, and Implement new technological solutions and methodologies for team and leadership",
-    					"Integrate with various systems via Web Services (SOAP, XMLRPC & REST), Database Connections, and JMS Technologies",
-    					"Meet with other internal teams to develop requirements, design integrated components, and troubleshoot issues",
-    					"Mentor junior developers and facilitate on boarding of peer developers when joining the team or new project",
-    					"Facilitate the improvement of corporate culture and communication as a member of the Inclusion and Innovation Team"
-    				]
+    				"Design, Develop, Test, Deploy, and Maintain Java, Groovy, Spring 2.5, J2EE, and Grails applications as a member of a team",
+    				"Research, Prototype, Present, and Implement new technological solutions and methodologies for team and leadership",
+    				"Integrate with various systems via Web Services (SOAP, XMLRPC & REST), Database Connections, and JMS Technologies",
+    				"Meet with other internal teams to develop requirements, design integrated components, and troubleshoot issues",
+    				"Mentor junior developers and facilitate on boarding of peer developers when joining the team or new project",
+    				"Facilitate the improvement of corporate culture and communication as a member of the Inclusion and Innovation Team"
+    			]
     		},
     		{
     			"title": "Programmer Specialist",
@@ -37,11 +37,66 @@
     			"start_date": "8/2006",
     			"end_date": "12/2008",
     			"descriptions": [
-    					"Facilitated the planning of each of the project cycles by providing technical guidance and estimates for work",
-    					"Lead the design, coding, enhancing, and testing of J2EE / Java / Spring 2.0 - 2.5 software to meet business requirements",
-    					"Communicated with project managers team issues and barriers and facilitate their resolution",
-    					"Coached and mentored junior developers with technical and professional issues"
-    				]
-    		}
+    				"Facilitated the planning of each of the project cycles by providing technical guidance and estimates for work",
+    				"Lead the design, coding, enhancing, and testing of J2EE / Java / Spring 2.0 - 2.5 software to meet business requirements",
+    				"Communicated with project managers team issues and barriers and facilitate their resolution",
+    				"Coached and mentored junior developers with technical and professional issues"
+    			]
+    		},
+            {
+                "title":"IT Associate Programmer-Analyst",
+                "company":"USAA",
+                "location":"San Antonio, TX",
+                "start_date": "6/2005",
+                "end_date": "8/2006",
+                "descriptions": [
+                    "Designed and developed J2EE/Java based web applications and services requested by business in Websphere environment",
+                    "Met with business users in order to define application requirements as part of the development process",
+                    "Discussed new applications and procedures for departmental process improvements as a member of a committee",
+                    "Created analysis and design documentation for future application development and maintenance"
+                ]
+            },
+            {
+                "title":"Technology Support Specialist",
+                "company": "Baylor University",
+                "location": "Waco, TX",
+                "start_date": "1/2002",
+                "end_date": "1/2005",
+                "descriptions": [
+                    "Managed the daily operations of language computer lab including a staff of fifteen lab assistants",
+                    "Developed, implemented, and administered PHP based web application, and streaming servers",
+                    "Supported foreign language software for all campus staff and faculty",
+                    "Provided professional and technical training to faculty, staff, and student body",
+                    "Coordinated purchases and installation of computer and multimedia equipment upgrades"
+                ]
+            },
+            {
+                "title":"Consultant - SAP HR Information Analyst",
+                "company": "Lyondell Chemical",
+                "location": "Houston, TX",
+                "start_date":"5/2001",
+                "end_date": "10/2001",
+                "descriptions": [
+                    "Facilitated the implementation of the SAP Human Resources module for international employees",
+                    "Coordinated communication of business requirements between international and domestic partners",
+                    "Provided support and training to international partners via email and telephone communications",
+                    "Developed technical training documentation for implementation of new system",
+                    "Performed testing of new client software and provided feedback to developers"
+                ]
+            },
+            {
+                "title":"Enron Transition Team Member",
+                "company":"Sourcenet Solutions",
+                "location":"Houston, TX",
+                "start_date":"6/2000",
+                "end_date":"4/2001",
+                "descriptions":[
+                    "Obtained SAP Accounts Payable training with Compaq USA and Compaq Canada clients",
+                    "Facilitated the acquisition of client accounts payable department with customized SAP solution",
+                    "Analyzed client accounts payable processes, identified potential issues, and recommended solutions",
+                    "Interviewed client employees to identify issues not found in initial analysis and provide recommendations",
+                    "Communicated with domestic and international clients via telephone, email, and personal contact"
+                ]
+            }
     	]
 }
