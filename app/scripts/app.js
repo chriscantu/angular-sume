@@ -19,5 +19,9 @@ angular.module('angularSume', ['resumeSvc', 'navDirective', 'userDirective'])
             templateUrl: 'views/training.html',
             controller: "ResumeCtrl"
         })
+        .when('/education', {
+            templateUrl: 'views/education.html',
+            controller: 'ResumeCtrl'
+        })
         .otherwise({ redirectTo: '/' });
   });

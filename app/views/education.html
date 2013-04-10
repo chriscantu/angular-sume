@@ -1,0 +1,12 @@
+<div class="row">
+	<h3>Education</h3>
+	<div ng-repeat="degree in resume.degrees">
+		<h5>{{ degree.type }} ( {{ degree.graduation_date }} )</h5>
+		<p>{{ degree.school }}</p>
+		<p ng-show="degree.major">{{ degree.major }} / 
+			<span ng-show="degree.minor">  
+				{{ degree.minor }} 
+			</span>
+		</p>
+	</div>
+</div>

@@ -116,5 +116,19 @@
                 "title":"SpringSource - Core Spring (Spring Framework 2.5) 4 day intensive training seminar",
                 "date":"5/2008"
             }
+        ],
+    "degrees":[
+            {
+                "type":"Masters of Science in Information Systems",
+                "school": "Baylor University",
+                "graduation_date": "5/2005"
+            },
+            {
+                "type":"Bachelors of Business Administration",
+                "school":"Baylor University",
+                "graduation_date": "5/2000",
+                "major":"International Business / Managing Information Systems",
+                "minor":"Spanish"
+            }
         ]
 }
