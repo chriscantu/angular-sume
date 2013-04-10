@@ -98,5 +98,23 @@
                     "Communicated with domestic and international clients via telephone, email, and personal contact"
                 ]
             }
-    	]
+    	],
+    "training_classes":[
+            {
+                "title":"Rackspace Leadership Training",
+                "date":"6/2011"
+            },
+            {
+                "title":"No Fluff Just Stuff - Groovy / Grails / Spring Framework 4 day intensive seminar",
+                "date":"10/2010"
+            },
+            {
+                "title":"No Fluff Just Stuff - Groovy / Grails / Spring Framework 4 day intensive seminar",
+                "date": "10/2009"
+            },
+            {
+                "title":"SpringSource - Core Spring (Spring Framework 2.5) 4 day intensive training seminar",
+                "date":"5/2008"
+            }
+        ]
 }
