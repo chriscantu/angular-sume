@@ -8,9 +8,17 @@
 </div>
 <div class="row">
 	<div class="col-span-11 col-offset-1" ng-repeat="job in resume.jobs | filter: tags">
-		<h4>{{job.title}} / {{job.company}} / {{job.location}} ( {{job.start_date}} - {{job.end_date}} )</h4>
-		<div class="large-12 columns">
-			<rs-descriptions experiences="job.descriptions"></rs-descriptions>
+		<div class="row">
+			<div class="col-span-8">
+				<h4>{{job.title}} / {{job.company}} / {{job.location}}</h4>
+			</div>
+			<div class="col-span-4">
+				<h4>{{job.start_date}} - {{job.end_date}}</h4>
+			</div>
 		</div>
+		<div class="large-12 columns">
+				<rs-descriptions experiences="job.descriptions"></rs-descriptions>
+		</div>
+
 	</div>
 </div>

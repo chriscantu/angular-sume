@@ -5,11 +5,23 @@
 		    <div class="col-span-6">
 		    	<label>Email: <a href="mailto:{{resume.email}}">{{ resume.email }}</a></label>
 		    </div>
-		    <div class="col-span6">
+		    <div class="col-span-6">
+				<label ng-show="resume.linkedIn_username">LinkedIn: 
+	    			<a href="http://www.linkedin.com/in/{{resume.linkedIn_username}}" target="_blank">@{{resume.linkedIn_username}}</a>
+	    		</label>
+		    </div>	    	
+	    </div>
+	    <div class="row">
+	    	<div class="col-span-6">
 				<label ng-show="resume.github_username">Github: 
 		    		<a href="https://github.com/{{resume.github_username}}" target="_blank">@{{resume.github_username}}</a>
 		    	</label>
-		    </div>	    	
+	    	</div>
+	    	<div class="col-span-6">
+	    		<label ng-show="resume.twitter_username">Twitter:
+	    			<a href="http://twitter.com/{{resume.twitter_username}}" target="_blank">@{{resume.twitter_username}}</a>
+	    		</label>
+	    	</div>
 	    </div>
 	</div>
 </div>
