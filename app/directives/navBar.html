@@ -1,10 +1,11 @@
 <nav class="navbar navbar-inverse">
-	<a href="#" class="navbar-brand">Resume</a>
+	<a href="#" class="navbar-brand active" ng-click="path = '/'">Resume</a>
 	<ul class="nav">
-		<li class="active"><a href="#/">Profile</a></li>
-		<li><a href="#/acheivements">Acheivements</a></li>
-      	<li><a href="#/experience">Experience</a></li>
-      	<li><a href="#/training">Training</a></li>
-      	<li><a href="#/education">Education</a></li>
+		<li ng-class="{active : path == '/' }" ng-click="path = '/'"><a href="#/">Profile</a></li>
+		<li ng-class="{active : path == '/acheivements' }" ng-click="path = '/acheivements'"><a href="#/acheivements">Acheivements</a></li>
+      	<li ng-class="{active : path == '/experience' }" ng-click="path = '/experience'"><a href="#/experience">Experience</a></li>
+      	<li ng-class="{active : path == '/training' }" ng-click="path = '/training'"><a href="#/training">Training</a></li>
+      	<li ng-class="{active : path == '/education' }" ng-click="path = '/education'"><a href="#/education">Education</a></li>
 	</ul>
+	{{ path }}
 </nav>
