@@ -8,6 +8,7 @@ files = [
   MOCHA,
   MOCHA_ADAPTER,
   'app/components/angular/angular.js',
+  'app/components/angular/**/*.js',
   'app/components/angular-mocks/angular-mocks.js',
   'app/scripts/*.js',
   'app/scripts/**/*.js',
@@ -16,7 +17,7 @@ files = [
 ];
 
 // list of files to exclude
-exclude = [];
+exclude = ['app/scripts/foundation.min.js', 'app/scripts/foundation/**', 'app/scripts/js/bootstrap*.js'];
 
 // test results reporter to use
 // possible values: dots || progress || growl
@@ -36,7 +37,7 @@ colors = true;
 logLevel = LOG_INFO;
 
 // enable / disable watching file and executing tests whenever any file changes
-autoWatch = false;
+autoWatch = true;
 
 // Start these browsers, currently available:
 // - Chrome
@@ -46,7 +47,7 @@ autoWatch = false;
 // - Safari (only Mac)
 // - PhantomJS
 // - IE (only Windows)
-browsers = ['PhantomJS'];
+browsers = ['ChromeCanary'];
 
 // If browser does not capture in given timeout [ms], kill it
 captureTimeout = 5000;
